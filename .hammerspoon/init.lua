@@ -1,5 +1,5 @@
 --file dependencies: hammerspoon, karabiner-elements
-hs.alert.show("Hammerspoon config loaded")
+hs.alert.show("hammerspoon oldu başgann")
 
 hyper = {"cmd", "alt", "ctrl", "shift"}
 
@@ -36,8 +36,8 @@ local spotify = {
 }
 
 local brightness = {
-    Up   = function() system.Event(static.EventKeys.BrightnessUp) end,
-    Down = function() system.Event(static.EventKeys.BrightnessDown) end,
+    Up   = function() sendSystemKey("BRIGHTNESS_UP") end,
+    Down = function() sendSystemKey("BRIGHTNESS_DOWN") end,
 }
 
 local hsEvent = hs.eventtap.event
@@ -83,5 +83,6 @@ hs.hotkey.bind(hyper, "Q", brightness.Down)
 hs.hotkey.bind(hyper, "W", brightness.Up)
 
 --OpenApp
-hs.hotkey.bind(hyper, "S", system.OpenApp("Slack"))
+hs.hotkey.bind(hyper, "S", system.OpenApp("Spotify"))
 hs.hotkey.bind(hyper, "V", system.OpenApp("Visual Studio Code"))
+hs.hotkey.bind(hyper, "X", system.OpenApp("Warp"))
