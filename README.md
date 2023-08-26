@@ -29,6 +29,6 @@ System settings > Trackpad > Point & Click
 * Allow Hammerspoon on System Settings > Privacy & Security > Accessibility
 
 ## Useful Scripts
-### Sign VSCode to debug without firewall "allow connection" errors  
+### Sign VSCode to debug without firewall "allow connection" errors
 `sudo codesign --force --deep --sign - "/Applications/Visual Studio Code.app"`  
 ref: https://apple.stackexchange.com/questions/3271/how-to-get-rid-of-firewall-accept-incoming-connections-dialog  
