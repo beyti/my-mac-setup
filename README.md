@@ -9,6 +9,11 @@ System settings > Trackpad > Point & Click
     Uncheck > Lookup data detectors
     Enable > force click and haptic feedback
 
+## Keyboard Shortcuts
+System settings > Keyboard > Keyboard Shortcuts > Mission Control
+
+    Disable > Show Desktop (F11)
+
 ## Enable repeating keys by pressing and holding down keys
 ```defaults write NSGlobalDomain ApplePressAndHoldEnabled -bool false```  
 
