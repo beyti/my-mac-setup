@@ -9,7 +9,7 @@ System settings > Trackpad > Point & Click
     Uncheck > Lookup data detectors
     Enable > force click and haptic feedback
 
-## Keyboard Shortcuts
+## Keyboard Shortcuts
 System settings > Keyboard > Keyboard Shortcuts > Mission Control
 
     Disable > Show Desktop (F11)
