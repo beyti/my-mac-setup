@@ -94,3 +94,17 @@ ln -s ~/.oh-my-zsh/themes/dracula-theme-folder/dracula.zsh-theme ~/.oh-my-zsh/th
 Change theme in /.zshrc file
 
 from: `ZSH_THEME="<something>"` to `ZSH_THEME="dracula"`
+
+## Enabled Plugins
+
+```
+plugins=(
+  git
+  zsh-autosuggestions
+  history
+  jsontools
+  aws
+  docker
+  zsh-syntax-highlighting
+  )
+```
