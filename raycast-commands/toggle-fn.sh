@@ -1,4 +1,19 @@
 #!/bin/bash
+
+# Required parameters:
+# @raycast.schemaVersion 1
+# @raycast.title Toggle Fn
+# @raycast.mode silent
+
+# Optional parameters:
+# @raycast.icon 📟
+
+# Documentation:
+# @raycast.description Toggle Fn Keys
+# @raycast.author Beyti
+# @raycast.authorURL https://github.com/beyti
+# @raycast.packageName System
+
 osascript <<EOD
   
 -- Apple Script (i.e. Use in Apple's Script Editor Application) to Toggle Function Keys / Media keys on/off
