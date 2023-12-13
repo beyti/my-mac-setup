@@ -75,7 +75,6 @@
     ```
 
 3. Add  Dracula Theme
-
    Ref: [here](https://draculatheme.com/zsh)
   1. Download theme
 
@@ -92,7 +91,6 @@
      from: `ZSH_THEME="<something>"` to `ZSH_THEME="dracula"`
 
 4. Enable Plugins
-
   1. Install zsh-syntax-highligting plugin
 
   ```
