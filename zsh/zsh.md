@@ -1,12 +1,9 @@
-## Warp
-use any terminal, but warp is cool
-
-## Install Oh My Zsh
+1. Install Oh My Zsh
 
 - Install [ohmyzsh](https://github.com/ohmyzsh/ohmyzsh)
 - Now .zshrc file is updated at `/.zshrc`
 
-## Add proper select capabilities
+2. Add proper select capabilities
 
 Ref: [stackoverflow](https://stackoverflow.com/questions/5407916/zsh-zle-shift-selection)
 
@@ -77,11 +74,11 @@ for key     kcap   seq        mode   widget (
 }
 ```
 
-## Add  Dracula Theme
+3. Add  Dracula Theme
 
 Ref: [here](https://draculatheme.com/zsh)
 
-### Download theme
+3.1. Download theme
 
 ```
 cd ~/.oh-my-zsh/themes
@@ -89,13 +86,21 @@ git clone https://github.com/dracula/zsh.git dracula-theme-folder
 ln -s ~/.oh-my-zsh/themes/dracula-theme-folder/dracula.zsh-theme ~/.oh-my-zsh/themes/dracula.zsh-theme
 ```
 
-### Add Theme to .zshrc config
+3.2. Add Theme to .zshrc config
 
 Change theme in /.zshrc file
 
 from: `ZSH_THEME="<something>"` to `ZSH_THEME="dracula"`
 
-## Enabled Plugins
+4. Enable Plugins
+
+4.1. Install zsh-syntax-highligting plugin
+
+```
+git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
+```
+
+4.2. Add Preferred Plugins
 
 ```
 plugins=(
