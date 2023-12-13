@@ -92,9 +92,10 @@
       ```
 
 1. Enable Plugins
-   1. Install zsh-syntax-highligting plugin
+   1. Install plugins need git clones
       ```
       git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
+      git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
       ```
 
    1. Add Preferred Plugins
