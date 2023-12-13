@@ -1,9 +1,9 @@
-1. Install Oh My Zsh
+1.  Install Oh My Zsh
 
 - Install [ohmyzsh](https://github.com/ohmyzsh/ohmyzsh)
 - Now .zshrc file is updated at `/.zshrc`
 
-2. Add proper select capabilities
+2.  Add proper select capabilities
 
 Ref: [stackoverflow](https://stackoverflow.com/questions/5407916/zsh-zle-shift-selection)
 
@@ -74,42 +74,42 @@ for key     kcap   seq        mode   widget (
 }
 ```
 
-3. Add  Dracula Theme
+3.  Add  Dracula Theme
 
-Ref: [here](https://draculatheme.com/zsh)
+  Ref: [here](https://draculatheme.com/zsh)
 
-3.1. Download theme
+  3.1.  Download theme
 
-```
-cd ~/.oh-my-zsh/themes
-git clone https://github.com/dracula/zsh.git dracula-theme-folder
-ln -s ~/.oh-my-zsh/themes/dracula-theme-folder/dracula.zsh-theme ~/.oh-my-zsh/themes/dracula.zsh-theme
-```
+  ```
+  cd ~/.oh-my-zsh/themes
+  git clone https://github.com/dracula/zsh.git dracula-theme-folder
+  ln -s ~/.oh-my-zsh/themes/dracula-theme-folder/dracula.zsh-theme ~/.oh-my-zsh/themes/dracula.zsh-theme
+  ```
 
-3.2. Add Theme to .zshrc config
+  3.2. Add Theme to .zshrc config
 
-Change theme in /.zshrc file
+  Change theme in /.zshrc file
 
-from: `ZSH_THEME="<something>"` to `ZSH_THEME="dracula"`
+  from: `ZSH_THEME="<something>"` to `ZSH_THEME="dracula"`
 
-4. Enable Plugins
+4.  Enable Plugins
 
-4.1. Install zsh-syntax-highligting plugin
+  4.1.  Install zsh-syntax-highligting plugin
 
-```
-git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
-```
+  ```
+  git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
+  ```
 
-4.2. Add Preferred Plugins
+  4.2. Add Preferred Plugins
 
-```
-plugins=(
-  git
-  zsh-autosuggestions
-  history
-  jsontools
-  aws
-  docker
-  zsh-syntax-highlighting
-  )
-```
+  ```
+  plugins=(
+    git
+    zsh-autosuggestions
+    history
+    jsontools
+    aws
+    docker
+    zsh-syntax-highlighting
+    )
+  ```
