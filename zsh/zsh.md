@@ -1,4 +1,4 @@
-7. Install iterm2
+1. Install iterm2
    ```
    brew install --cask iterm2
    ```
@@ -7,7 +7,7 @@
    - Install [ohmyzsh](https://github.com/ohmyzsh/ohmyzsh)
    - Now .zshrc file is updated at `/.zshrc`
 
-2. Add proper select capabilities
+1. Add proper select capabilities
    Ref: [stackoverflow](https://stackoverflow.com/questions/5407916/zsh-zle-shift-selection)
 
    Add below to `/.zshrc` file:
@@ -77,7 +77,7 @@
     }
     ```
 
-3. Add  Dracula Theme
+1. Add  Dracula Theme
    Ref: [here](https://draculatheme.com/zsh)
 
    1. Download theme
@@ -87,17 +87,17 @@
      ln -s ~/.oh-my-zsh/themes/dracula-theme-folder/dracula.zsh-theme ~/.oh-my-zsh/themes/dracula.zsh-theme
      ```
 
-   2. Add Theme to .zshrc config
+   1. Add Theme to .zshrc config
       Change theme in /.zshrc file
       from: `ZSH_THEME="<something>"` to `ZSH_THEME="dracula"`
 
-5. Enable Plugins
+1. Enable Plugins
    1. Install zsh-syntax-highligting plugin
       ```
       git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
       ```
 
-   3. Add Preferred Plugins
+   1. Add Preferred Plugins
       ```
       plugins=(
        git
