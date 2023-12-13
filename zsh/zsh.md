@@ -1,10 +1,13 @@
-1. Install Oh My Zsh
+7. Install iterm2
+   ```
+   brew install --cask iterm2
+   ```
 
+1. Install Oh My Zsh
    - Install [ohmyzsh](https://github.com/ohmyzsh/ohmyzsh)
    - Now .zshrc file is updated at `/.zshrc`
 
 2. Add proper select capabilities
-
    Ref: [stackoverflow](https://stackoverflow.com/questions/5407916/zsh-zle-shift-selection)
 
    Add below to `/.zshrc` file:
@@ -76,8 +79,8 @@
 
 3. Add  Dracula Theme
    Ref: [here](https://draculatheme.com/zsh)
-   1. Download theme
 
+   1. Download theme
      ```
      cd ~/.oh-my-zsh/themes
      git clone https://github.com/dracula/zsh.git dracula-theme-folder
@@ -85,28 +88,24 @@
      ```
 
    2. Add Theme to .zshrc config
+      Change theme in /.zshrc file
+      from: `ZSH_THEME="<something>"` to `ZSH_THEME="dracula"`
 
-     Change theme in /.zshrc file
-     
-     from: `ZSH_THEME="<something>"` to `ZSH_THEME="dracula"`
-
-4. Enable Plugins
+5. Enable Plugins
    1. Install zsh-syntax-highligting plugin
+      ```
+      git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
+      ```
 
-  ```
-  git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
-  ```
-
-   2. Add Preferred Plugins
-
-  ```
-  plugins=(
-    git
-    zsh-autosuggestions
-    history
-    jsontools
-    aws
-    docker
-    zsh-syntax-highlighting
-    )
-  ```
+   3. Add Preferred Plugins
+      ```
+      plugins=(
+       git
+       zsh-autosuggestions
+       history
+       jsontools
+       aws
+       docker
+       zsh-syntax-highlighting
+       )
+      ```
