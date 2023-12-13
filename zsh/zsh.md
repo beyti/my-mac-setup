@@ -101,12 +101,13 @@
    1. Add Preferred Plugins
       ```
       plugins=(
-       git
-       zsh-autosuggestions
-       history
-       jsontools
-       aws
-       docker
-       zsh-syntax-highlighting
+         git
+         history
+         jsontools
+         aws
+         docker
+         zsh-syntax-highlighting
+         zsh-autosuggestions
+         z
        )
       ```
