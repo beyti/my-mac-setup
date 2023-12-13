@@ -77,8 +77,7 @@
 3. Add  Dracula Theme
 
    Ref: [here](https://draculatheme.com/zsh)
-
-  1.  Download theme
+  1. Download theme
 
      ```
      cd ~/.oh-my-zsh/themes
