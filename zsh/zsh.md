@@ -79,13 +79,13 @@
 
 1. Add  Dracula Theme
    Ref: [here](https://draculatheme.com/zsh)
-   1. Download theme
+   1. Download theme  
       ```
       cd ~/.oh-my-zsh/themes
       git clone https://github.com/dracula/zsh.git dracula-theme-folder
       ln -s ~/.oh-my-zsh/themes/dracula-theme-folder/dracula.zsh-theme ~/.oh-my-zsh/themes/dracula.zsh-theme
       ```
-   1. Add Theme to .zshrc config
+   1. Add Theme to .zshrc config  
       Change theme in /.zshrc file
       from: `ZSH_THEME="<something>"` to `ZSH_THEME="dracula"`
 
