@@ -14,6 +14,11 @@ System settings > Keyboard > Keyboard Shortcuts > Mission Control
 
     Disable > Show Desktop (F11)
 
+## Disable Emoji Popup on Fn
+
+    System Settings > Keyboard
+    “Press 🌐 key to and select “Do Nothing”
+
 ## Enable repeating keys by pressing and holding down keys
 ```defaults write NSGlobalDomain ApplePressAndHoldEnabled -bool false```  
 
