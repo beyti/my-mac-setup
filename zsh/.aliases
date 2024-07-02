@@ -1,0 +1,20 @@
+#!/usr/bin/env bash
+
+alias ..="cd .."
+alias cd..="cd .."
+
+alias week='date +%V'
+
+# Flush Directory Service cache
+alias flush="dscacheutil -flushcache && killall -HUP mDNSResponder"
+
+# Hide/show all desktop icons (useful when presenting)
+alias hidedesktop="defaults write com.apple.finder CreateDesktop -bool false && killall Finder"
+alias showdesktop="defaults write com.apple.finder CreateDesktop -bool true && killall Finder"
+
+alias host="code /private/etc/hosts"
+alias zshrc="code ~/.zshrc"
+alias szshrc="source ~/.zshrc"
+alias aliases="code ~/.aliases"
+
+alias rider='open -na "Rider.app" --args nosplash "$@"'
